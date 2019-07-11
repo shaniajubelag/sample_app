@@ -8,6 +8,11 @@ gem 'rails', '~> 5.2.3'
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt', '3.1.12'
 gem 'faker', '1.7.3'
+
+gem 'carrierwave', '1.2.2'
+gem 'mini_magick', '4.7.0'
+
+
 gem 'will_paginate', '3.1.7'
 gem 'bootstrap-will_paginate', '1.0.0'
 
@@ -38,6 +43,9 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 
 
+
+#ADDED intentionally for the group :production do
+gem 'fog', '1.42'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
